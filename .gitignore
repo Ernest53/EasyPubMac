@@ -1,0 +1,16 @@
+.DS_Store
+*.pyc
+__pycache__/
+.pycache/
+
+# Local build products
+build/
+EasyPubMac.app/
+dist/EasyPubMac-*/
+
+# Keep distributable archives when intentionally generated.
+!dist/*.dmg
+!dist/*.zip
+
+# Local scratch outputs
+test_output.epub
